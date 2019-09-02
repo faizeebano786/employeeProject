@@ -1,0 +1,63 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(197, 32, 87);
+}
+
+nav{
+  width: 100%;
+  height: 110px;
+  background-color: goldenrod;
+  color: black;
+}
+nav span{
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+#mySidenav{
+  background-color: #fff;
+  color: brown;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  overflow-x: hidden; 
+  padding-top: 20px;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight:600;
+  color: brown;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: olive;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 32px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
